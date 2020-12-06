@@ -1,0 +1,382 @@
+@font-face { 
+    font-family: 'Neucha';
+    src: url('../fonts/Neucha/Neucha.eot');
+    src: local('Neucha'),
+    url('../fonts/Neucha/Neucha.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Neucha/Neucha.woff') format('woff'),
+    url('../fonts/Neucha/Neucha.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face { 
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	padding: 100px 0;
+	overflow: hidden;
+	background-image: url(../../images/image.png);
+	background-repeat-y: repeat;
+	background-color: #F5F4F0;
+}
+
+.content {
+	max-width: 1110px;
+	width: 100%;
+	margin: auto;
+}
+
+.background-light {
+	background-color: #F5F4F0;
+	background-position-y: center;
+}
+
+.text-title {
+	position: relative;
+	top: 21px; 
+	margin: 0 0 235px 0;
+}
+
+.text-title .h1 {
+	position: relative;
+	z-index: 200;
+	font-family: 'Neucha';
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FE8A02;
+	line-height: 84px;
+	width: 635px;
+	margin: 0;
+}
+
+.color-text {
+	color: #2A2626;
+}
+
+.img-main {
+	position: absolute;
+	top: -55px;
+	left: 270px;
+	z-index: 100;
+}
+
+.title-grid {
+	display: grid;
+    grid-template-columns: repeat(2, 540px);
+    grid-gap: 30px;
+}
+
+.font-16 {
+	font-family: "OpenSansRegular";
+	font-size: 16px;
+	font-style: normal;
+}
+
+.info {
+	padding: 11px 24px;
+	margin: 40px 556px 0 570px;
+	background-color: #FE8A02;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.info:hover {
+	background-color: #EA7600;
+}
+
+.video-title {
+	position: relative;
+    z-index: 600;
+	text-align: center;
+}
+
+.background-white {
+	background: none;
+    background-color: #FFFFFF;
+}
+
+.h2 {
+	font-family: 'Neucha';
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	color: #2A2626;
+	line-height: 66px;
+	margin: 0;
+}
+
+.author {
+	color: #212529;
+	text-align: center;
+	padding: 25px 100px 15px 100px;
+	margin: 0;
+}
+
+.preview {
+	display: flex;
+    justify-content: center;
+}
+
+.button {
+	position: relative;
+	top: -365px;
+	z-index: 600;
+}
+
+.play {
+	position: absolute;
+	left: 46%;
+	padding: 29px;
+}
+.section-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 350px);
+	grid-template-rows: 310px 350px;
+	grid-gap: 20px 30px;
+    justify-content: center;
+    padding: 100px 0 0 0; 
+}
+
+.background-grey {
+	background-color: #42413C;
+    margin-top: -375px;
+}
+
+.card {
+	font-family: 'Neucha';
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.color-orange {
+	color: #FE8A02;
+}
+
+.link-card {
+	text-decoration: none;
+	background-color: #F5F4F0;
+    padding: 24px;
+}
+
+.link-card:hover {
+	background-color: #FE8A02;
+}
+
+.link-card:hover .card-number,
+.link-card:hover .color-orange,
+.link-card:hover .color-text {
+	color: #FFFFFF;
+}
+
+.font-64 {
+	font-family: 'Neucha';
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.card-number {
+	color: #42413C;
+	margin: 0;
+}
+
+.h3 {
+	font-family: 'Neucha';
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 20px 0 0 0;
+}
+
+.info-card {
+	display: flex;
+}
+
+.info-right {
+	width: 540px;
+    padding: 0 0 0 30px;
+}
+.info-left {
+	width: 540px;
+    padding: 0 30px 0 0;
+}
+
+.h4-light {
+	font-family: 'Neucha';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	color: #908D8B;
+	margin: 0;
+}
+
+.h2-light {
+	font-family: 'Neucha';
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	color: #2A2626;
+	line-height: 66px;
+	margin: 0;
+}
+
+.h3-light {
+	font-family: 'Neucha';
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 20px 0 0 0;
+	color: #2A2626;
+}
+
+.info-grid {
+	margin: 72px 0 0 0;
+}
+
+.font-14 {
+	font-family: "OpenSansRegular";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 22px;
+	padding: 4px 8px;
+}
+
+.title-dark {
+	color: #FFFFFF;
+	background-color: #B09A81;
+}
+
+.background-dark {
+	background-color: #B09A81;
+	background-position-y: center;
+}
+
+.h4-dark {
+	font-family: 'Neucha';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.h2-dark {
+	font-family: 'Neucha';
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 66px;
+	margin: 0;
+}
+
+.h3-dark {
+	font-family: 'Neucha';
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 20px 0 0 0;
+	color: #FFFFFF;
+}
+
+.font-16-light {
+	font-family: "OpenSansRegular";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.title-light {
+	color: #42413C;
+	background-color: #FFFFFF;
+}
+
+.info-form {
+	display: flex;
+	background-color: #42413C;
+}
+
+.font-36 {
+	font-family: 'Neucha';
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	padding: 52px 55px;
+}
+
+.form {
+	margin: auto;
+}
+
+.email {
+	font-family: "OpenSansRegular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding: 12px 26px;
+	border: 1px solid #E3E3E3;
+	width: 394px;
+}
+
+.vector {
+	background-color: #FE8A02;
+	padding: 14px 26px; 
+	margin: 0 0 0 -4px;
+}
+.vector:hover {
+	background-color: #EA7600;
+}
+
+.email-font-18 {
+	font-family: "OpenSansRegular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 0 8px 0;
+}
+
+.rules {
+	font-family: "OpenSansRegular";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin: 0 0 8px 0;
+}
+
+.rules-service {
+	color: #FFFFFF;
+}
+
+.link {
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+.link a {
+	color: #1085C5;
+}
