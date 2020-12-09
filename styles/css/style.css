@@ -27,6 +27,7 @@ body {
 	max-width: 1440px;
 	width: 100%;
 	padding: 100px 0;
+	margin: auto;
 	overflow: hidden;
 	background-image: url(../../images/image.png);
 	background-repeat-y: repeat;
@@ -46,8 +47,7 @@ body {
 
 .text-title {
 	position: relative;
-	top: 21px; 
-	margin: 0 0 235px 0;
+	margin: 21px 0 220px 0;
 }
 
 .text-title .h1 {
@@ -59,7 +59,8 @@ body {
 	font-weight: 400;
 	color: #FE8A02;
 	line-height: 84px;
-	width: 635px;
+	max-width: 635px;
+	width: 100%;
 	margin: 0;
 }
 
@@ -87,21 +88,22 @@ body {
 }
 
 .info {
+	display: block;
 	padding: 11px 24px;
-	margin: 40px 556px 0 570px;
+	margin: 40px 0 0 0;
 	background-color: #FE8A02;
 	border: none;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	cursor: pointer;
+	outline: none;
 }
 .info:hover {
 	background-color: #EA7600;
 }
 
 .video-title {
-	position: relative;
-    z-index: 600;
 	text-align: center;
 }
 
@@ -128,19 +130,19 @@ body {
 }
 
 .preview {
+	position: relative;
 	display: flex;
     justify-content: center;
 }
 
 .button {
-	position: relative;
-	top: -365px;
-	z-index: 600;
+	position: absolute;
+	top: 245px;
 }
 
 .play {
 	position: absolute;
-	left: 46%;
+	left: 15%;
 	padding: 29px;
 }
 .section-grid {
@@ -154,7 +156,10 @@ body {
 
 .background-grey {
 	background-color: #42413C;
-    margin-top: -375px;
+}
+
+.mg-t {
+    margin-top: -250px;
 }
 
 .card {
